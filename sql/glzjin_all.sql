@@ -696,3 +696,8 @@ ALTER TABLE `paylist`
 --
 ALTER TABLE `paylist`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;ALTER TABLE `user_traffic_log` CHANGE `u` `u` BIGINT(20) NOT NULL, CHANGE `d` `d` BIGINT(20) NOT NULL;
+
+--
+--insert admin
+--
+INSERT INTO `user`(`id`, `user_name`, `email`, `pass`, `passwd`, `t`, `u`, `d`, `plan`, `transfer_enable`, `port`, `switch`, `enable`, `type`, `last_get_gift_time`, `last_check_in_time`, `last_rest_pass_time`, `reg_date`, `invite_num`, `money`, `ref_by`, `expire_time`, `method`, `is_email_verify`, `reg_ip`, `node_speedlimit`, `node_connector`, `is_admin`, `im_type`, `im_value`, `last_day_t`, `sendDailyMail`, `class`, `class_expire`, `expire_in`, `theme`, `ga_token`, `ga_enable`, `pac`, `remark`, `node_group`, `auto_reset_day`, `auto_reset_bandwidth`, `protocol`, `protocol_param`, `obfs`, `obfs_param`, `forbidden_ip`, `forbidden_port`, `disconnect_ip`, `is_hide`, `is_multi_user`, `telegram_id`) VALUES (10, 'admin', '7colorblog', 'b802cc5b7e29f0c9d906dff357efd09317064fe67765ad914bda6e3be9b3654c', '8GmpAV', 0, 0, 0, 'A', 1073741824, 59958, 1, 1, 1, 0, 0, 0, '2018-12-26 22:18:18', 10, 0.00, 0, 0, 'rc4-md5', 0, '127.0.0.1', 0.00, 0, 1, 1, '', 0, 1, 0, '1989-06-04 00:05:00', '2028-12-23 22:18:18', 'material', 'VNUDNKQVCUQJFSJR', 0, NULL, NULL, 0, 0, 0.00, 'origin', NULL, 'plain', NULL, NULL, NULL, NULL, 0, 0, NULL);
