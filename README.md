@@ -1,6 +1,19 @@
 # 欢迎使用ss panel v3 mod 再次修改版
 
+## 说明
+基于ss panel v3 mod 再次修改版 的一些细节处理，作为本人使用；
+#### 更新日志
+2019年1月107日11:20:21 更新支付宝当面付充值页面，详情见下图
+![更新支付宝当面付充值页面](https://ws3.sinaimg.cn/large/005BYqpgly1fz67bksjzjj30u90hngml.jpg)
 
+
+
+
+
+
+
+
+# 以下为原作者所带文档，保留
 **ss-panel-v3-mod**是一款专为shadowsocks设计的web前端面板，再次感谢ss-panel-v3-mod 的制作者，修改后的功能简介：
 
 - **支付系统集成**：集成 支付宝当面付  易付通 码支付 TrimePay 等多种支付系统，使用方法见项目[wiki](https://github.com/NimaQu/ss-panel-v3-mod_Uim/wiki/)
