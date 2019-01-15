@@ -1,5 +1,5 @@
  <div class="card-inner">
-   <!--
+   
  <div class="row">
         <div class="col-lg-6 col-md-6">
             <p class="card-heading">支付宝在线充值</p>
@@ -12,14 +12,14 @@
             <div class="h5 margin-top-sm text-black-hint" id="qrarea"></div>
         </div>
 </div>
--->
+
    
-{include file='user/aopf2f_for_7color.tpl'}   
+ 
    
    
 
 </div>
-    <!--<a class="btn btn-flat waves-attach" id="pay" onclick="pay();" ><span class="icon">check</span>&nbsp;充值</a>-->
+    <a class="btn btn-flat waves-attach" id="pay" onclick="pay();" ><span class="icon">check</span>&nbsp;充值</a>
 
 
 
